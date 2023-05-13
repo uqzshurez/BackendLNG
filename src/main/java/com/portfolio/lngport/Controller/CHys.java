@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin(origins = "https://portfolio-frontend-lng.web.app") //ACA DEJAR LISTO PARA HACER LA SUBIDA
-@RequestMapping("/skill")
+@RequestMapping("skill")
 public class CHys {
 
     @Autowired
