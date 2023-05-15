@@ -1,12 +1,18 @@
-
-
-package com.portfolio.lngport.Dto;
+    /*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.portfolio.mgb.Dto;
 
 import javax.validation.constraints.NotBlank;
 
-
+/**
+ *
+ * @author Usuario
+ */
 public class dtoPersona {
-     @NotBlank
+    @NotBlank
     private String nombre;
     @NotBlank
     private String apellido;
@@ -56,5 +62,6 @@ public class dtoPersona {
     public void setImg(String img) {
         this.img = img;
     }
+    
     
 }

@@ -7,10 +7,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-import lombok.Getter;
-import lombok.Setter;
 
-
+//Esto traemos de Lombok, nos ayuda a no estar creando manualmente los getters y setters
 @Entity
 public class Persona {
     @Id
@@ -79,8 +77,5 @@ public class Persona {
     public void setImg(String img) {
         this.img = img;
     }
-
     
-
- 
 }
