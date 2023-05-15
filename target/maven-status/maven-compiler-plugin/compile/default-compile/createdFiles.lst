@@ -35,7 +35,6 @@ com\portfolio\lngport\Security\MainSecurity.class
 com\portfolio\lngport\Entity\Experiencia.class
 com\portfolio\lngport\Security\Repository\iRolRepository.class
 com\portfolio\lngport\Security\Dto\LoginUsuario.class
-com\portfolio\lngport\LngportApplication$1.class
 com\portfolio\lngport\Security\Repository\iUsuarioRepository.class
 com\portfolio\lngport\Repository\REducacion.class
 com\portfolio\lngport\Security\Enums\RolNombre.class
