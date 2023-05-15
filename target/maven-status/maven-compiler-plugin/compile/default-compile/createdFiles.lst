@@ -8,7 +8,6 @@ com\portfolio\lngport\Controller\PersonaController.class
 com\portfolio\lngport\Dto\dtoExperiencia.class
 com\portfolio\lngport\Security\Service\UsuarioService.class
 com\portfolio\lngport\Security\Dto\NuevoUsuario.class
-com\portfolio\lngport\Interface\IPersonaService.class
 com\portfolio\lngport\Dto\dtoEducacion.class
 com\portfolio\lngport\Security\Entity\Rol.class
 com\portfolio\lngport\Security\Service\SExperiencia.class
