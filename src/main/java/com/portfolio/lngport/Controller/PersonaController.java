@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/personas")
 @CrossOrigin(origins = "https://portfolio-frontend-lng.web.app")
 public class PersonaController {
-      @Autowired
+     @Autowired
     ImpPersonaService personaService;
     
     @GetMapping("/lista")
@@ -66,7 +66,6 @@ public class PersonaController {
         return new ResponseEntity(new Mensaje("Educacion creada"), HttpStatus.OK);
                 
     }*/
-    
     
     @PutMapping("/update/{id}")
     public ResponseEntity<?> update(@PathVariable("id") int id, @RequestBody dtoPersona dtopersona){
